@@ -1,4 +1,6 @@
 # инкапсуляция
+from lesson11 import main
+from lesson11 import main
 
 class Student:
     def __init__(self, name, age):
@@ -23,7 +25,7 @@ class Student:
         if age <= 0:
             print("incorrect data")
         else:
-            self.__age = age  
+            self.__age = age
 
     def printStudent(self):
         print(f"name: {self.__name}, age: {self.__age}")

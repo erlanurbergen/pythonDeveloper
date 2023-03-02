@@ -11,7 +11,8 @@ data = {"name": "Erlan", "age": 29, "hobbies": ["football", "basketball"]}
 # for i in data.keys():
 #     print(i, data[i])
 
-
+def helloHello():
+    print("hello")
 # Как изменить или добавить элементы в словаре
 data["age"] = 30
 data["city"] = "Almaty"
@@ -55,6 +56,8 @@ print(data.values())
 # keys()
 
 print(data.keys())
+
+
 
 
 
